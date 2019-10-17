@@ -3,8 +3,8 @@ import Router from 'vue-router'
 
 
 Vue.use(Router)
-import Eat from '@/views/Eat'
-import Classify from '@/views/Classify'
+import Eat from './eat'
+import Classify from './good'
 import textdetail from './textdetail'
 import good from './good'
 export default new Router({
